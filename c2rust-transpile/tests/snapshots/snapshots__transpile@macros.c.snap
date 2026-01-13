@@ -383,7 +383,6 @@ pub unsafe extern "C" fn stmt_expr_inc() -> ::core::ffi::c_int {
     ({
         *b += 1;
         *b;
-        *b
     });
     return ({
         *b += 1;
